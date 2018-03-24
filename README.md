@@ -8,4 +8,4 @@
 
 我们将基于 2015-2016 年的 **NBA** 常规赛及季后赛的比赛统计数据，预测在当下正在进行的 2016-2017 常规赛每场赛事的结果。
 
-![](https://dn-anything-about-doc.qbox.me/document-uid291340labid2647timestamp1489325776168.png/wm)
+![](https://images.unsplash.com/photo-1518407613690-d9fc990e795f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9ebb37e759216d40f64fd2d16b895966&auto=format&fit=crop&w=1050&q=80)
