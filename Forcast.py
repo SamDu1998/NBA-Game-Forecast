@@ -132,7 +132,7 @@ if __name__=='__main__':
     model.fit(X, y)
 
     print('Doing cross-validation...')
-    print(cross_val_score(model, X, y, cv=100, scoring='accuracy', n_jobs=-1).mean())
+    print(cross_val_score(model, X, y, cv=10, scoring='accuracy', n_jobs=-1).mean())
 
     print('Predicting on new schedules...')
     schedule1718 = pd.read_csv(folder + '/17-18 schedule.csv')
@@ -159,3 +159,4 @@ if __name__=='__main__':
         writer.writerow(['win', 'lose', 'probability'])
         writer.writerow(result)
         print('done')
+    print(pd.read_csv('17-18-Predict-Result.csv', header=0))
